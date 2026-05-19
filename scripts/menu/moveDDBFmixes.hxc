@@ -1,0 +1,46 @@
+import funkin.modding.module.Module;
+import funkin.ui.freeplay.FreeplayState;
+import funkin.data.story.level.LevelRegistry;
+
+class InsertFreeplaySongOrderDDBF extends Module
+{
+  public function new()
+  {
+    super('InsertFreeplaySongOrderDDBF', 999999, {state: FreeplayState});
+  }
+
+  override function onSubStateOpenEnd(event)
+  {
+    super.onSubStateOpenEnd(event);
+    var state = event.targetState;
+    if (!Std.isOfType(event.targetState, FreeplayState)) return;
+    insertAfterWeek('weekend1', ['due-debts-bf-mix']); // EX. insertAfterWeek('week2', ['week60037'])
+  }
+
+  function insertAfterWeek(weekName:String, songs:Array<String>)
+  {
+    var levels = [];
+    var hasSeenWeek = false;
+    for (song in FlxG.state.subState.songs.copy())
+    {
+      if (songs.contains(song?.levelId ?? null))
+      {
+        FlxG.state.subState.songs.remove(song);
+        levels.push(song);
+      }
+    }
+    for (song in FlxG.state.subState.songs)
+    {
+      if ((song?.levelId ?? null) == weekName && !hasSeenWeek) hasSeenWeek = true;
+      if (hasSeenWeek && (song?.levelId ?? null) != weekName)
+      {
+        for (item in levels)
+        {
+          FlxG.state.subState.songs.insert(FlxG.state.subState.songs.indexOf(song), item);
+        }
+        break;
+      }
+    }
+    FlxG.state.subState.generateSongList(null, true, false);
+  }
+}

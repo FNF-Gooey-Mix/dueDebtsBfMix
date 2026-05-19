@@ -1,0 +1,25 @@
+{
+  "version": "2.2.4",
+  "songName": "2hot (BF Mix)",
+  "artist": "princelolz (ft. emjay :P)",
+  "charter": "LeGooey + Rbz_Fzo",
+  "offsets": {},
+  "playData": {
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "bf-ddbf",
+      "girlfriend": "gf",
+      "opponent": "darnell",
+      "playerVocals": ["gooey"],
+      "opponentVocals": ["darnell"],
+      "altInstrumentals": []
+    },
+    "stage": "phillyStreetsErect",
+    "noteStyle": "funkin",
+    "stickerPack": null,
+    "ratings": { "easy": 5, "normal": 7, "hard": 8 },
+    "album": "ddbfmix"
+  },
+  "generatedBy": "Friday Night Funkin' - v0.8.1",
+  "timeChanges": [{ "t": 0, "b": 0, "bpm": 182, "bt": [4, 4, 4, 4] }]
+}

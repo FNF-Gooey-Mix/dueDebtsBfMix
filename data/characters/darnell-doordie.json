@@ -1,0 +1,187 @@
+{
+  "version": "1.0.0",
+  "name": "Darnell (Do Or Die)",
+  "assetPath": "shared:characters/darnell",
+  "renderType": "multianimateatlas",
+  "healthIcon": {
+    "id": "darnell"
+  },
+  "offsets": [18, 31],
+  "cameraOffsets": [-18, 4],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Pose Left"
+    },
+    {
+      "name": "singLEFT-hold",
+      "prefix": "Left Flame Loop",
+      "looped": true
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Pose Down"
+    },
+    {
+      "name": "singDOWN-hold",
+      "prefix": "Down Flame Loop",
+      "looped": true
+    },
+    {
+      "name": "singUP",
+      "prefix": "Pose Up"
+    },
+    {
+      "name": "singUP-hold",
+      "prefix": "Up Flame Loop",
+      "looped": true
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Pose Right"
+    },
+    {
+      "name": "singRIGHT-hold",
+      "prefix": "Right Flame Loop",
+      "looped": true
+    },
+    {
+      "name": "laugh",
+      "prefix": "Laugh"
+    },
+    {
+      "name": "laughCutscene",
+      "prefix": "Laugh",
+      "frameIndices": [
+        1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6,
+        1, 2, 3, 4, 5, 6
+      ]
+    },
+    {
+      "name": "lightCan",
+      "prefix": "Light Can"
+    },
+    {
+      "name": "kickCan",
+      "prefix": "Kick Up"
+    },
+    {
+      "name": "kneeCan",
+      "prefix": "Knee Forward"
+    },
+    {
+      "name": "pissed",
+      "prefix": "Gets Pissed"
+    },
+     {
+      "name": "idle-blazin",
+      "prefix": "BlazinIdle",
+      "looped": true,
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "pissed-blazin",
+      "prefix": "Pissed",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "cringe-blazin",
+      "prefix": "Cringe",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "fakeout-blazin",
+      "prefix": "Fake Hit",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "block-blazin",
+      "prefix": "Block",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "dodge-blazin",
+      "prefix": "Dodge",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "uppercutPrep-blazin",
+      "prefix": "Uppercut Prep",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "uppercut-blazin",
+      "prefix": "Uppercut Punch",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "uppercutHit-blazin",
+      "prefix": "Uppercut Hit",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "uppercut-hold-blazin",
+      "prefix": "Uppercut Punch Loop",
+      "looped": true,
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "punchHigh1-blazin",
+      "prefix": "Punch High 1",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "punchHigh2-blazin",
+      "prefix": "Punch High 2",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "punchLow1-blazin",
+      "prefix": "Punch Low 1",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "punchLow2-blazin",
+      "prefix": "Punch Low 2",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "hitHigh-blazin",
+      "prefix": "Hit High",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "hitLow-blazin",
+      "prefix": "Hit Low",
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    },
+    {
+      "name": "hitSpin-blazin",
+      "prefix": "Hit Spin",
+      "looped": true,
+      "offsets": [-1011, -844],
+      "assetPath": "shared:characters/ddbf/darnellBlazinDoOrDie"
+    }
+    
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "Due Debts (BF Mix)",
+  "artists": ["princelolz", "emjay :P", "HEV", "cub", "setai"],
+  "albumArtAsset": "freeplay/albumRoll/ddbfmix",
+  "albumTitleAsset": "freeplay/albumRoll/ddbfmix-text",
+  "albumTitleOffsets": [-12, -13],
+  "albumOSTName": "DDBF MIX OST",
+  "discordRPCImage": "https://raw.githubusercontent.com/FNF-Gooey-Mix/GooeyMixDiscordIcons/refs/heads/main/assets/album-covers/ddbfmix.png"
+}

@@ -1,0 +1,152 @@
+{
+  "version": "1.0.0",
+  "name": "Boyfriend (Due Debts BF Mix)",
+  "renderType": "multianimateatlas",
+  "assetPath": "shared:characters/bf",
+  "flipX": true,
+  "offsets": [17, 14],
+  "cameraOffsets": [-18, 36],
+  "healthIcon": {
+    "id": "bf"
+  },
+  "death": {
+    "cameraOffsets": [-73, 42]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "singLEFT-alt",
+      "prefix": "BFddbfLeft",
+      "offsets": [282, 219]
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "singDOWN-alt",
+      "prefix": "BFddbfDown",
+      "offsets": [282, 219]
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "singUP-alt",
+      "prefix": "BFddbfUp",
+      "offsets": [282, 219]
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "singRIGHT-alt",
+      "prefix": "BFddbfRight",
+      "offsets": [282, 219]
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "preAttack",
+      "prefix": "BFddbfPreAttack",
+      "offsets": [282, 219]
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "attack",
+      "prefix": "BFddbfAttack",
+      "offsets": [282, 219]
+    },
+    {
+      "assetPath": "shared:characters/ddbf/bf-ddbf",
+      "name": "attackMISS",
+      "prefix": "BFddbfHit",
+      "offsets": [282, 219]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "hey",
+      "prefix": "Hey"
+    },
+    {
+      "name": "cheer",
+      "prefix": "Cheer"
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "firstDeath",
+      "prefix": "Death Intro",
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathLoop",
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathConfirm",
+      "prefix": "Death Confirm",
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bfFakeOut",
+      "name": "fakeoutDeath",
+      "prefix": "fake out death BF",
+      "animType": "symbol",
+      "offsets": [-3, -65]
+    },
+    {
+      "name": "scared",
+      "prefix": "Scared"
+    },
+     {
+      "name": "firstDeath-explosion",
+      "prefix": "bfFuckingExplodes",
+      "assetPath": "shared:characters/ddbf/bfDDBFexplode",
+      "offsets": [432, 441]
+    },
+    {
+      "name": "deathLoop-explosion",
+      "prefix": "bfExplodeLoop",
+      "assetPath": "shared:characters/ddbf/bfDDBFexplode",
+      "offsets": [432, 441],
+      "looped": true
+    },
+    {
+      "name": "deathConfirm-explosion",
+      "prefix": "bfExplodeConfirm",
+      "assetPath": "shared:characters/ddbf/bfDDBFexplode",
+      "offsets": [432, 441]
+    }
+  ]
+}

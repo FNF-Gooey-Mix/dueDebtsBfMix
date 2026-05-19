@@ -1,0 +1,124 @@
+import funkin.modding.module.Module;
+import funkin.ui.credits.CreditsState;
+import funkin.ui.credits.CreditsDataHandler;
+import funkin.modding.ModStore;
+
+class DDBFCredits extends Module
+{
+  public function new()
+  {
+    super('DDBFCredits', 1, {
+      state: CreditsState
+    });
+
+    active = false;
+    if (ModStore.get('DDBFAddedCreditsData') ?? false) return;
+    ModStore.stores.set('DDBFAddedCreditsData', true);
+
+    CreditsDataHandler.CREDITS_DATA.entries.unshift( // for example this one is on the bottom
+      {
+        header: "---------------------------------------",
+        body: [
+          {
+            line: "",
+          }
+        ]
+      });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift({
+      header: "Special Thanks",
+      body: [
+        {
+          line: "ContentLeaf",
+        },
+        {
+          line: "Ledonic",
+        }
+      ]
+    });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift({
+      header: "Charting",
+      body: [
+        {
+          line: "LeGooey",
+        },
+        {
+          line: "Rbz_Fzo",
+        }
+      ]
+    });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift({
+      header: "Programming",
+      body: [
+        {
+          line: "Comedy Lost",
+        },
+        {
+          line: "LeGooey",
+        },
+        {
+          line: "TechnikTil",
+        }
+      ]
+    });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift({
+      header: "Music Production",
+      body: [
+        {
+          line: "HEV",
+        },
+        {
+          line: "princelolz",
+        },
+        {
+          line: "emjay :p",
+        },
+        {
+          line: "cub",
+        },
+        {
+          line: "setai",
+        }
+      ]
+    });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift({
+      header: "Artists",
+      body: [
+        {
+          line: "LeGooey",
+        },
+        {
+          line: "HEV",
+        },
+        {
+          line: "FreezyGam1ng_",
+        },
+        {
+          line: "phanto",
+        },
+        {
+          line: "SPG64",
+        },
+        {
+          line: "ChazbillYT",
+        }
+      ]
+    });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift({
+      header: "Director",
+      body: [
+        {
+          line: "LeGooey",
+        }
+      ]
+    });
+    CreditsDataHandler.CREDITS_DATA.entries.unshift( // and this is on da top
+      {
+        header: "Due Debts (BF Mix)",
+        body: [
+          {
+            line: ""
+          }
+        ]
+      });
+  }
+}

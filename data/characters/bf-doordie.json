@@ -1,0 +1,265 @@
+{
+  "version": "1.0.0",
+  "name": "Boyfriend (Due Debts BF Mix)",
+  "renderType": "multianimateatlas",
+  "assetPath": "shared:characters/bf",
+  "flipX": true,
+  "offsets": [17, 14],
+  "cameraOffsets": [-18, 36],
+  "healthIcon": {
+    "id": "bf"
+  },
+  "death": {
+    "cameraOffsets": [-73, 42]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    },
+    {
+      "name": "hey",
+      "prefix": "Hey"
+    },
+    {
+      "name": "cheer",
+      "prefix": "Cheer"
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "firstDeath",
+      "prefix": "Death Intro",
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathLoop",
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bf-death",
+      "name": "deathConfirm",
+      "prefix": "Death Confirm",
+      "offsets": [22, 15]
+    },
+    {
+      "assetPath": "shared:characters/bfFakeOut",
+      "name": "fakeoutDeath",
+      "prefix": "fake out death BF",
+      "animType": "symbol",
+      "offsets": [-3, -65]
+    },
+    {
+      "name": "idle-blazin",
+      "prefix": "bfIdle",
+      "looped": true,
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singLEFT-blazin",
+      "prefix": "singLeft",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singDOWN-blazin",
+      "prefix": "singDown",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singUP-blazin",
+      "prefix": "singUp",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singRIGHT-blazin",
+      "prefix": "singRight",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singLEFT-alt-blazin",
+      "prefix": "styleLeft",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singDOWN-alt-blazin",
+      "prefix": "styleDown",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singUP-alt-blazin",
+      "prefix": "styleUp",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "singRIGHT-alt-blazin",
+      "prefix": "styleRight",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "block-blazin",
+      "prefix": "block",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "dodge-blazin",
+      "prefix": "dodge",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "fakeout-blazin",
+      "prefix": "blazinhey",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "taunt-blazin",
+      "prefix": "blazinhey",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "punchHigh1-blazin",
+      "prefix": "punchHighBack",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "punchHigh2-blazin",
+      "prefix": "punchHighFront",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "punchLow1-blazin",
+      "prefix": "punchLowBack",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "punchLow2-blazin",
+      "prefix": "punchLowFront",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "hitHigh-blazin",
+      "prefix": "hitHigh",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "hitLow-blazin",
+      "prefix": "hitLow",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "hitSpin-blazin",
+      "prefix": "spin",
+      "looped": true,
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "uppercutPrep-blazin",
+      "prefix": "preUppercut",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "uppercut-blazin",
+      "prefix": "theUppercut",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "uppercutHit-blazin",
+      "prefix": "hitUppercut",
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "name": "uppercut-hold-blazin",
+      "prefix": "theUppercut",
+      "looped": true,
+      "frameIndices": [5, 6, 7],
+      "renderType": "sparrow",
+      "assetPath": "characters/ddbf/bfBlazin",
+      "offsets": [-1336, -1027]
+    },
+    {
+      "renderType": "animateatlas",
+      "assetPath": "shared:characters/ddbf/bfBlazinGameOver",
+      "name": "firstDeath-blazin",
+      "prefix": "blazinDeathIntro",
+      "offsets": [-1264, 1051]
+    },
+    {
+      "renderType": "animateatlas",
+      "assetPath": "shared:characters/ddbf/bfBlazinGameOver",
+      "name": "deathLoop-blazin",
+      "prefix": "blazinDeathLoop",
+      "offsets": [-1264, 1051],
+      "looped": true
+    },
+    {
+      "renderType": "animateatlas",
+      "assetPath": "shared:characters/ddbf/bfBlazinGameOver",
+      "name": "deathConfirm-blazin",
+      "prefix": "blazinDeathConfirm",
+      "offsets": [-1264, 1051]
+    }
+  ]
+}

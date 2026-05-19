@@ -1,0 +1,12 @@
+@:merge_combine
+class DarnellCharacter extends AnimateAtlasCharacter
+{
+
+  @:merge_insert(1) 
+  function new()
+  {
+    ignoreExclusionPref.push("lightCan");
+    ignoreExclusionPref.push("kickCan");
+    ignoreExclusionPref.push("kneeCan");
+  }
+}

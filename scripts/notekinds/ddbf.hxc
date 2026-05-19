@@ -1,0 +1,33 @@
+import funkin.play.notes.notekind.NoteKind;
+
+class DueDebtsBFPerfectNoteKind extends NoteKind
+{
+  public function new()
+  {
+    super("ddbf-perfect", "Perfect (Due Debts BF Mix)", null, [], false, 'perfect');
+  }
+}
+
+class BlazinBFStyleHighNoteKind extends NoteKind
+{
+  public function new()
+  {
+    super("weekend-1-bfstyleHigh", "BF Style High (Blazin')");
+  }
+}
+
+class BlazinBFStyleLowNoteKind extends NoteKind
+{
+  public function new()
+  {
+    super("weekend-1-bfstyleLow", "BF Style Low (Blazin')");
+  }
+}
+
+class BlazinBFSingNoteKind extends NoteKind
+{
+  public function new()
+  {
+    super("weekend-1-bfsing", "BF Sing (Blazin')");
+  }
+}

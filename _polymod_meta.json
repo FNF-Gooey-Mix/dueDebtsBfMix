@@ -1,0 +1,65 @@
+{
+  "title": "Due Debts (BF Mix)",
+  "description": "Chud",
+  "id": "DueDebtsBFmix",
+  "contributors": [
+    {
+      "name": "LeGooey",
+      "role": "Director, Artist, Coder, Charter",
+      "url": "https://www.youtube.com/@LeGooey"
+    },
+    {
+      "name": "HEV",
+      "role": "Artist, Composer",
+      "url": "https://www.youtube.com/@Art4Henry"
+    },
+    {
+      "name": "FreezyGam1ng_",
+      "role": "Artist",
+      "url": "https://x.com/ffreeze76"
+    },
+    {
+      "name": "phanto",
+      "role": "Artist",
+      "url": "https://x.com/duffbeerphanto"
+    },
+    {
+      "name": "SPG64",
+      "role": "Artist",
+      "url": "https://x.com/SPG642"
+    },
+    {
+      "name": "ChazbillYT",
+      "role": "Artist",
+      "url": "https://x.com/ChazbillYT"
+    },
+    {
+      "name": "princelolz",
+      "role": "Composer",
+      "url": "https://x.com/princelolzmusic"
+    },
+    {
+      "name": "emjay :p",
+      "role": "Composer",
+      "url": "https://x.com/emjaydotprod"
+    },
+    {
+      "name": "Comedy Lost",
+      "role": "Coder",
+      "url": "https://x.com/C0MEDYLOST"
+    },
+    {
+      "name": "TechnikTil",
+      "role": "Coder",
+      "url": "https://x.com/TechnikTil"
+    },
+    {
+      "name": "Rbz_Fzo",
+      "role": "Charter",
+      "url": "https://www.youtube.com/@FZO_RBZ"
+    }
+  ],
+  "api_version": "0.8.0",
+  "mod_version": "2.0.0",
+  "license": "Apache-2.0"
+}

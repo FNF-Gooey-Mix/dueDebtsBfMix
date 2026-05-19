@@ -1,0 +1,23 @@
+{
+  "version": "2.2.4",
+  "songName": "Blazin' (BF Mix)",
+  "artist": "HEV",
+  "charter": "LeGooey",
+  "offsets": {},
+  "playData": {
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "bf-blazin-ddbf",
+      "girlfriend": "gf",
+      "opponent": "darnell-blazin-ddbf",
+      "playerVocals": ["bf"]
+    },
+    "stage": "phillyBlazinDDBF",
+    "noteStyle": "funkin",
+    "ratings": { "easy": 7, "normal": 9, "hard": 10},
+    "stickerPack": null,
+    "album": "ddbfmix"
+  },
+  "generatedBy": "Friday Night Funkin' - v0.8.1",
+  "timeChanges": [{ "t": 0, "b": 0, "bpm": 180, "bt": [4, 4, 4, 4] }]
+}

@@ -1,0 +1,18 @@
+@:merge_combine
+class PhillyStreetsErectStage extends Stage
+{
+
+  @:merge_insert(-1) 
+  override function onCreate(event:ScriptEvent):Void
+  {
+    if (PlayState.instance != null)
+    {
+      switch (PlayState.instance.currentSong.id)
+      {
+        case "2hot-bf-mix":
+          rainShaderStartIntensity = 0.02;
+          rainShaderEndIntensity = 0.04;
+      }
+    }
+  }
+}

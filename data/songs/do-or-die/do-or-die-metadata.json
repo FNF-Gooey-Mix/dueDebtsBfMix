@@ -1,0 +1,22 @@
+{
+  "version": "2.2.4",
+  "songName": "Do Or Die",
+  "artist": "cub & setai",
+  "charter": "LeGooey",
+  "offsets": {},
+  "playData": {
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "bf-doordie",
+      "girlfriend": "gf",
+      "opponent": "darnell-doordie"
+    },
+    "stage": "phillyStreetsDoOrDie",
+    "noteStyle": "funkin",
+    "stickerPack": null,
+    "ratings": { "easy": 7, "normal": 9, "hard": 11},
+    "album": "ddbfmix"
+  },
+  "generatedBy": "Friday Night Funkin' - v0.8.1",
+  "timeChanges": [{ "t": 0, "b": 0, "bpm": 196, "bt": [4, 4, 4, 4] }]
+}

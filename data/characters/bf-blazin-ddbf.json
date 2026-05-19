@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "name": "BF (Blazin' DDBF)",
+  "assetPath": "characters/ddbf/bfBlazin",
+  "healthIcon": {
+    "id": "bf"
+  },
+  "flipX": true,
+  "renderType": "multisparrow",
+  "singTime": 999.0,
+  "death": {
+    "preTransitionDelay": 0.125,
+    "cameraOffsets": [1100, 1050],
+    "cameraZoom": 0.8
+  },
+  "offsets": [685, 527],
+  "cameraOffsets": [77, 24],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "bfIdle",
+      "looped": true
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "singLeft"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "singDown"
+    },
+    {
+      "name": "singUP",
+      "prefix": "singUp"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "singRight"
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "styleLeft"
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "styleDown"
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "styleUp"
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "styleRight"
+    },
+    {
+      "name": "block",
+      "prefix": "block"
+    },
+    {
+      "name": "dodge",
+      "prefix": "dodge"
+    },
+    {
+      "name": "fakeout",
+      "prefix": "blazinhey"
+    },
+    {
+      "name": "taunt",
+      "prefix": "blazinhey"
+    },
+    {
+      "name": "punchHigh1",
+      "prefix": "punchHighBack"
+    },
+    {
+      "name": "punchHigh2",
+      "prefix": "punchHighFront"
+    },
+    {
+      "name": "punchLow1",
+      "prefix": "punchLowBack"
+    },
+    {
+      "name": "punchLow2",
+      "prefix": "punchLowFront"
+    },
+    {
+      "name": "hitHigh",
+      "prefix": "hitHigh"
+    },
+    {
+      "name": "hitLow",
+      "prefix": "hitLow"
+    },
+    {
+      "name": "hitSpin",
+      "prefix": "spin",
+      "looped": true
+    },
+    {
+      "name": "uppercutPrep",
+      "prefix": "preUppercut"
+    },
+    {
+      "name": "uppercut",
+      "prefix": "theUppercut"
+    },
+    {
+      "name": "uppercutHit",
+      "prefix": "hitUppercut"
+    },
+    {
+      "name": "uppercut-hold",
+      "prefix": "theUppercut",
+      "looped": true,
+      "frameIndices": [5, 6, 7]
+    },
+    {
+      "renderType": "animateatlas",
+      "assetPath": "shared:characters/ddbf/bfBlazinGameOver",
+      "name": "firstDeath",
+      "prefix": "blazinDeathIntro",
+      "offsets": [61, -45]
+    },
+    {
+      "renderType": "animateatlas",
+      "assetPath": "shared:characters/ddbf/bfBlazinGameOver",
+      "name": "deathLoop",
+      "prefix": "blazinDeathLoop",
+      "offsets": [61, -45],
+      "looped": true
+    },
+    {
+      "renderType": "animateatlas",
+      "assetPath": "shared:characters/ddbf/bfBlazinGameOver",
+      "name": "deathConfirm",
+      "prefix": "blazinDeathConfirm",
+      "offsets": [61, -45]
+    }
+  ]
+}
